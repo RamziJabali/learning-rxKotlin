@@ -2,7 +2,7 @@
 Cook book for RXKotlin
 
 
-## Creating a single observable
+## Creating a single Observable
 ```
 var stringy = "Hi"
 
