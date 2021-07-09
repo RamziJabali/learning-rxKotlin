@@ -1,2 +1,2 @@
 # learning-rxKotlin
-Cook book for RXKtolin
+Cook book for RXKotlin
