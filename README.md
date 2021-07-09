@@ -2,11 +2,11 @@
 Cook book for RXKotlin
 
 
-## Creating an Observable
+## Creating a single observable
 ```
 var stringy = "Hi"
 
-        var x: Observable<String> = Observable.create(ObservableOnSubscribe<String> { emitter ->
+        var x: Observable<String> = Observable.create(ObservableOnSubscribe<String> { emitter ->  //Lambda
             if(!emitter.isDisposed){
                 emitter.onNext(stringy)
                 emitter.onComplete()
