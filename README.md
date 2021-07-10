@@ -3,6 +3,9 @@ Cook book for RXKotlin
 
 
 ## Creating a single Observable
+
+If you have a List of items that you want use you can use a for each loop in the `onNext()` or you can use `just()` which acomodates for collection.
+
 ```
 var stringy = "Hi"
 
